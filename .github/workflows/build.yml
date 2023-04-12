@@ -124,6 +124,7 @@ jobs:
         run: |
           cat ./build_waf/config.log
 
+
       - uses: actions/upload-artifact@v3
         with:
           name: mpv-${{ matrix.target }}
